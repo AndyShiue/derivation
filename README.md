@@ -21,7 +21,7 @@ How to use:
    extern crate derivation;
    ```
    
-3. The trait `Variants` has only one method: `fn variants() -> Vec<Self>;`.
+3. The trait `Variants` has only one method: `fn variants() -> Vec<Self>;` which should return the list of all variants.
    Import it when you need to derive it:
 
    ```rust
@@ -30,7 +30,7 @@ How to use:
    use enum_variants::Variants;
    ```
 
-4. Derive `FromStr` or `Variants` like you do with other traits
+4. Derive `FromStr` or `Variants` like you do with other traits:
    
    ```rust
    #[derive(FromStr, Variants)]
