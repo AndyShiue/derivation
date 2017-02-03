@@ -2,6 +2,12 @@
 name = "derivation"
 version = "0.1.0"
 authors = ["Andy Shiue <andyshiue851019@gmail.com>"]
+description = "Deriving traits for C-like enums using macro 1.1."
+homepage = "https://github.com/AndyShiue/derivation/tree/master"
+repository ="https://github.com/AndyShiue/derivation/tree/master"
+keywords = ["enum", "derive", "macro"]
+license = "MIT"
+exclude = [".DS_Store", ".gitignore", "derivation_test/*", "enum_variants/*"]
 
 [lib]
 

@@ -5,5 +5,5 @@ authors = ["Andy Shiue <andyshiue851019@gmail.com>"]
 
 [dependencies]
 
-derivation = { path = ".." }
-enum_variants = { path = "../enum_variants" }
+derivation = "^0.1"
+enum_variants = "^1.0"
