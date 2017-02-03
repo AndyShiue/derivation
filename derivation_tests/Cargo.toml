@@ -1,0 +1,9 @@
+[package]
+name = "derivation_tests"
+version = "0.1.0"
+authors = ["Andy Shiue <andyshiue851019@gmail.com>"]
+
+[dependencies]
+
+derivation = { path = ".." }
+enum_variants = { path = "../enum_variants" }
