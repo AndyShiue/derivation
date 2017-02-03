@@ -5,7 +5,7 @@ How to use:
 
 1. Add these 2 crate as dependencies in your `Cargo.toml`
 
-   ```
+   ```toml
    [dependencies]
    
    derivation = "^0.1"
