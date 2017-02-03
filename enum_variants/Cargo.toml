@@ -1,0 +1,6 @@
+[package]
+name = "enum_variants"
+version = "1.0.0"
+authors = ["Andy Shiue <andyshiue851019@gmail.com>"]
+
+[dependencies]
