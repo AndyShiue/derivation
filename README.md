@@ -30,6 +30,6 @@ How to use:
    use enum_variants::Variants;
    ```
 
-4. Derive `FromStr` or `Variants` as you do with other traits.
+4. Derive `FromStr` or `Variants` like you do with other traits.
 
 Notice that only C-like (unitary) enums are supported!
