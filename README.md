@@ -1,6 +1,8 @@
 # derivation
 Deriving traits for C-like enums using macro 1.1.
 
+Supports Rust 1.15 or above.
+
 How to use:
 
 1. Add these 2 crate as dependencies in your `Cargo.toml`
