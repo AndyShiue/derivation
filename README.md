@@ -1,7 +1,7 @@
 # derivation
 Deriving traits for C-like enums using macro 1.1.
 
-Supports Rust 1.15 or above.
+Supports Rust 1.15 and above.
 
 How to use:
 
