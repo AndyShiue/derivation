@@ -1,7 +1,7 @@
 # derivation
 Deriving traits for C-like enums using macro 1.1.
 
-This crate make 2 traits derivable for C-like enums, namely `Variants` and `FromStr`.
+This crate makes 2 traits derivable for C-like enums, namely `Variants` and `FromStr`.
 The first one could be derived for enums to transform it into a list of variants, and the second make parsing from `&str` to variants easy as a piece of cake.
 
 Supports Rust 1.15 and above.
