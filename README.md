@@ -30,6 +30,13 @@ How to use:
    use enum_variants::Variants;
    ```
 
-4. Derive `FromStr` or `Variants` like you do with other traits.
+4. Derive `FromStr` or `Variants` like you do with other traits
+   
+   ```rust
+   #[derive(FromStr, Variants)]
+   enum Enum {
+       /* ... */
+   }
+   ```
 
 Notice that only C-like (unitary) enums are supported!
